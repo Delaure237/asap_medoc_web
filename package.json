@@ -2,16 +2,17 @@
   "name": "asap-medoc-web",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.28.0",
   "scripts": {
     "dev": "next dev -p 3600",
     "build": "next build",
     "start": "next start -p 3600",
-    "lint": "next lint"
+    "lint": "eslint"
   },
   "dependencies": {
     "framer-motion": "^11.18.0",
     "lucide-react": "^0.474.0",
-    "next": "15.3.2",
+    "next": "15.5.28",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -20,6 +21,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.5.28",
     "postcss": "^8",
     "tailwindcss": "^4",
     "typescript": "^5"
